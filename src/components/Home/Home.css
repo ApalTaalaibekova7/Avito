@@ -13,34 +13,6 @@ body {
     padding: 0 12px;
     margin: 0 auto;
 }
-.header-burger {
-    width: 30px;
-    height: 19px;
-    display: none;
-}
-.header {
-    padding-top: 30px;
-    padding-bottom: 24px;
-}
-.header-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header-logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-decoration: none;
-}
-.header-logo span {
-    line-height: 28px;
-    font-size: 24px;
-    font-weight: 700;
-    margin-left: 7px;
-    color: rgb(10, 20, 58);
-}
-
 .btn {
     line-height: 16px;
     font-size: 14px;
@@ -129,50 +101,6 @@ flex-grow: 1;
     flex-wrap: wrap;
     row-gap: 30px;   
 }
-.content-main__list-item {
-    width: calc((100% - 60px) / 3);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 10px;
-    overflow: hidden;
-    text-decoration: none;
-}
-.content-main__list-item--img  {
-    width: 100%;
-    display: flex;
-}
-.content-main__list-item--img img  {
-    width: 100%;
-}
-.content-main__list-item--title {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgb(10, 20, 58);
-}
-.content-main__list-item:hover .content-main__list-item--title {
-    color: rgb(37, 110, 235);
-}
-
-.content-main__list-item--price {
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 10px;
-    color: rgb(10, 20, 58);
-}
-.content-main__list-item--desc-box {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4px;
-}
-.content-main__list-item--desc {
-    font-size: 14px;
-    line-height: 16px;
-    color: rgb(196, 196, 196);
-}
-
 .content-side__title {
     font-size: 18px;
     line-height: 21px;
@@ -195,17 +123,7 @@ flex-grow: 1;
     flex-direction: column;
     align-items: flex-start;
 }
-.content-side__list-item--title {
-    margin-top: 7px;
-    margin-bottom: 5px;
-    font-size: 14px;
-    line-height: 16px;
-}
-.content-side__list-item--text {
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0;
-}
+
 .content-side__footer {
     display: flex;
     flex-direction: column;
